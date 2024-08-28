@@ -1,0 +1,38 @@
+<!-- Root build props for the whole solution -->
+<Project>
+  <!-- Package Metadata -->
+  <PropertyGroup>
+    <VersionPrefix>0.0.1-beta1</VersionPrefix>
+    <VersionSuffix></VersionSuffix>
+    <Description>AppleAppSiteAssociation</Description>
+    <RepositoryUrl>https://github.com/orkunucan/apple-app-site-association-lib</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <PackageTags>apple-app-site-association apple</PackageTags>
+    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/orkunucan/apple-app-site-association-lib</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+  
+  <!-- Global Variables -->
+  <PropertyGroup>
+    <SupportedTargetFrameworks>net8.0</SupportedTargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  
+  <!-- Language + Compiler Settings-->
+  <PropertyGroup>
+    <LangVersion>12</LangVersion>
+  </PropertyGroup>
+  
+  <!--MISC-->
+  <PropertyGroup>
+    <!-- Avoid annoying build warnings when packing using the solution file -->
+    <IsPackable>false</IsPackable>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <!-- Avoid annoying build warnings when packing using the solution file -->
+    <IsTestProject>false</IsTestProject>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,10 @@
+<!-- Build props for the libraries (anything under Src/) -->
+<Project>
+  <Import Project="..\Directory.Build.props"/>
+
+  <PropertyGroup Condition="$(IS_DOCKER) == ''">
+    <!-- Include PDB in the NuGet package -->
+    <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+  </PropertyGroup>
+
+</Project>
