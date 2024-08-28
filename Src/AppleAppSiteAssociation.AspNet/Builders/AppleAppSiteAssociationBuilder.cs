@@ -15,11 +15,7 @@ namespace AppleAppSiteAssociation.AspNet.Builders
         /// <exception cref="ArgumentNullException"></exception>
         public AppleAppSiteAssociationBuilder(IServiceCollection services)
         {
-            if (services == null)
-            {
-                throw new ArgumentNullException(nameof(services));
-            }
-            Services = services;
+            Services = services ?? throw new ArgumentNullException(nameof(services));
         }
         
         /// <summary>

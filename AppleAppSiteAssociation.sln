@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppleAppSiteAssociation", "AppleAppSiteAssociation\AppleAppSiteAssociation.csproj", "{ED3A6ACD-AD27-4DB5-8473-0E19875DF2B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppleAppSiteAssociation.AspNet", "Src\AppleAppSiteAssociation.AspNet\AppleAppSiteAssociation.AspNet.csproj", "{752D2E29-5D04-4B65-97C9-77F57E27A0E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{CF4A6AC6-3F79-4BCC-87CC-123A4E629598}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +10,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ED3A6ACD-AD27-4DB5-8473-0E19875DF2B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ED3A6ACD-AD27-4DB5-8473-0E19875DF2B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ED3A6ACD-AD27-4DB5-8473-0E19875DF2B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ED3A6ACD-AD27-4DB5-8473-0E19875DF2B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{752D2E29-5D04-4B65-97C9-77F57E27A0E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{752D2E29-5D04-4B65-97C9-77F57E27A0E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{752D2E29-5D04-4B65-97C9-77F57E27A0E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{752D2E29-5D04-4B65-97C9-77F57E27A0E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF4A6AC6-3F79-4BCC-87CC-123A4E629598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF4A6AC6-3F79-4BCC-87CC-123A4E629598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF4A6AC6-3F79-4BCC-87CC-123A4E629598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF4A6AC6-3F79-4BCC-87CC-123A4E629598}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

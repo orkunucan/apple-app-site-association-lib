@@ -1,16 +1,17 @@
 using System.Text.Json.Serialization;
 
-namespace AppleAppSiteAssociation.AspNet.Responses;
-
-/// <summary>
-/// 
-/// </summary>
-public class AppClipResponse
+namespace AppleAppSiteAssociation.AspNet.Responses
 {
     /// <summary>
-    /// A list of app IDs that are associated with the app clip.
+    /// Represents the response for the Apple App Site Association file.
     /// </summary>
-    [JsonPropertyName("apps")]
-    [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
-    public string[] AppIds { get; set; }
+    public class AppClipResponse
+    {
+        /// <summary>
+        /// A list of app IDs that are associated with the app clip.
+        /// </summary>
+        [JsonPropertyName("apps")]
+        [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
+        public string[] AppIds { get; set; }
+    }
 }
